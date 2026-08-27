@@ -1,0 +1,6 @@
+@KiemTraThichUng.API_HostAddress = http://localhost:5293
+
+GET {{KiemTraThichUng.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

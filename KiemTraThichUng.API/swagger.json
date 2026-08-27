@@ -1,0 +1,4209 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "KiemTraThichUng API",
+    "description": "API documentation for Adaptive Testing System",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/AdaptiveTest/BatDauKiemTra": {
+      "post": {
+        "tags": [
+          "AdaptiveTest"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BatDauKiemTra.BatDauKiemTraCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BatDauKiemTra.BatDauKiemTraCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/BatDauKiemTra.BatDauKiemTraCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.BatDauKiemTra.BatDauKiemTraResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.BatDauKiemTra.BatDauKiemTraResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.BatDauKiemTra.BatDauKiemTraResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/AdaptiveTest/GetCauHoiTiepTheo": {
+      "post": {
+        "tags": [
+          "AdaptiveTest"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LayCauHoiTiepTheo.LayCauHoiTiepTheoCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LayCauHoiTiepTheo.LayCauHoiTiepTheoCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LayCauHoiTiepTheo.LayCauHoiTiepTheoCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.LayCauHoiTiepTheo.LayCauHoiTiepTheoResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.LayCauHoiTiepTheo.LayCauHoiTiepTheoResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.LayCauHoiTiepTheo.LayCauHoiTiepTheoResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/AdaptiveTest/NopCauTraLoi": {
+      "post": {
+        "tags": [
+          "AdaptiveTest"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NopCauTraLoi.NopCauTraLoiCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NopCauTraLoi.NopCauTraLoiCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/NopCauTraLoi.NopCauTraLoiCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.NopCauTraLoi.NopCauTraLoiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.NopCauTraLoi.NopCauTraLoiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.NopCauTraLoi.NopCauTraLoiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/AdaptiveTest/KetThucKiemTra": {
+      "post": {
+        "tags": [
+          "AdaptiveTest"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KetThucKiemTra.KetThucKiemTraCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KetThucKiemTra.KetThucKiemTraCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/KetThucKiemTra.KetThucKiemTraCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.KetThucKiemTra.KetThucKiemTraResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.KetThucKiemTra.KetThucKiemTraResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.KetThucKiemTra.KetThucKiemTraResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/AdaptiveTest/LayDuLieuKiemTra": {
+      "post": {
+        "tags": [
+          "AdaptiveTest"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LayDuLieuKiemTra.LayDuLieuKiemTraQuery"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LayDuLieuKiemTra.LayDuLieuKiemTraQuery"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LayDuLieuKiemTra.LayDuLieuKiemTraQuery"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.AdaptiveTest.DuLieuKiemTraDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.AdaptiveTest.DuLieuKiemTraDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.AdaptiveTest.DuLieuKiemTraDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Auth/register": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Register.RegisterCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Register.RegisterCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Register.RegisterCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Auth/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Login.LoginQuery"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Login.LoginQuery"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Login.LoginQuery"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DataControls/GetBoCauHoi": {
+      "post": {
+        "tags": [
+          "DataControls"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetAllBoCauHoi.GetAllBoCauHoiQuery"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetAllBoCauHoi.GetAllBoCauHoiQuery"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetAllBoCauHoi.GetAllBoCauHoiQuery"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.IReadOnlyList.DataControls.BoCauHoiItemResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.IReadOnlyList.DataControls.BoCauHoiItemResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.IReadOnlyList.DataControls.BoCauHoiItemResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/DataControls/GetCauTrucBch": {
+      "post": {
+        "tags": [
+          "DataControls"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetAllCauTruc.GetAllCauTrucQuery"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetAllCauTruc.GetAllCauTrucQuery"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetAllCauTruc.GetAllCauTrucQuery"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.IReadOnlyList.DataControls.CauTrucItemResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.IReadOnlyList.DataControls.CauTrucItemResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.IReadOnlyList.DataControls.CauTrucItemResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/DataControls/GetLoaiCauHoiForSelector": {
+      "post": {
+        "tags": [
+          "DataControls"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetLoaiCauHoiForSelector.GetLoaiCauHoiForSelectorQuery"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetLoaiCauHoiForSelector.GetLoaiCauHoiForSelectorQuery"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetLoaiCauHoiForSelector.GetLoaiCauHoiForSelectorQuery"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.List.DataControls.SelectorItemResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.List.DataControls.SelectorItemResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.List.DataControls.SelectorItemResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/DataControls/GetMucDoNhanThucForSelector": {
+      "post": {
+        "tags": [
+          "DataControls"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetMucDoNhanThucForSelector.GetMucDoNhanThucForSelectorQuery"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetMucDoNhanThucForSelector.GetMucDoNhanThucForSelectorQuery"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetMucDoNhanThucForSelector.GetMucDoNhanThucForSelectorQuery"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.List.DataControls.SelectorItemResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.List.DataControls.SelectorItemResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.List.DataControls.SelectorItemResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/DM_CauTrucBCHs/GetListByIdParent": {
+      "post": {
+        "tags": [
+          "DM_CauTrucBCHs"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetListByIdParent.GetListByIdParentQuery"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetListByIdParent.GetListByIdParentQuery"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetListByIdParent.GetListByIdParentQuery"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.PagedResult.DM_CauTrucBCHs.CauTrucItemResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.PagedResult.DM_CauTrucBCHs.CauTrucItemResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.PagedResult.DM_CauTrucBCHs.CauTrucItemResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/DM_CauTrucBCHs": {
+      "post": {
+        "tags": [
+          "DM_CauTrucBCHs"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCautruc.CreateCauTrucCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCautruc.CreateCauTrucCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCautruc.CreateCauTrucCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.CreateCautruc.CreateCauTrucResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.CreateCautruc.CreateCauTrucResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.CreateCautruc.CreateCauTrucResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "DM_CauTrucBCHs"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateCautruc.UpdateCauTrucCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateCautruc.UpdateCauTrucCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateCautruc.UpdateCauTrucCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.UpdateCautruc.UpdateCauTrucResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.UpdateCautruc.UpdateCauTrucResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.UpdateCautruc.UpdateCauTrucResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "DM_CauTrucBCHs"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteCauTruc.DeleteCauTrucCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteCauTruc.DeleteCauTrucCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteCauTruc.DeleteCauTrucCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.DeleteCauTruc.DeleteCauTrucResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.DeleteCauTruc.DeleteCauTrucResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.DeleteCauTruc.DeleteCauTrucResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/EX_CauHois/GetList": {
+      "post": {
+        "tags": [
+          "EX_CauHois"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetListCauHoi.GetListCauHoiQuery"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetListCauHoi.GetListCauHoiQuery"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetListCauHoi.GetListCauHoiQuery"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.PagedResult.EX_CauHois.CauHoiItemDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.PagedResult.EX_CauHois.CauHoiItemDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.PagedResult.EX_CauHois.CauHoiItemDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/EX_CauHois/GetById": {
+      "post": {
+        "tags": [
+          "EX_CauHois"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetCauHoiById.GetCauHoiByIdQuery"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetCauHoiById.GetCauHoiByIdQuery"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GetCauHoiById.GetCauHoiByIdQuery"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.EX_CauHois.CauHoiDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.EX_CauHois.CauHoiDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.EX_CauHois.CauHoiDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/EX_CauHois": {
+      "post": {
+        "tags": [
+          "EX_CauHois"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCauHoi.CreateCauHoiCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCauHoi.CreateCauHoiCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCauHoi.CreateCauHoiCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.CreateCauHoi.CreateCauHoiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.CreateCauHoi.CreateCauHoiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.CreateCauHoi.CreateCauHoiResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "EX_CauHois"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateCauHoi.UpdateCauHoiCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateCauHoi.UpdateCauHoiCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateCauHoi.UpdateCauHoiCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.UpdateCauHoi.UpdateCauHoiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.UpdateCauHoi.UpdateCauHoiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.UpdateCauHoi.UpdateCauHoiResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "EX_CauHois"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteCauHoi.DeleteCauHoiCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteCauHoi.DeleteCauHoiCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteCauHoi.DeleteCauHoiCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.IReadOnlyList.DeleteCauHoi.DeleteCauHoiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.IReadOnlyList.DeleteCauHoi.DeleteCauHoiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.IReadOnlyList.DeleteCauHoi.DeleteCauHoiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/EX_CauHois/CapNhatTrangThaiCauHoi": {
+      "put": {
+        "tags": [
+          "EX_CauHois"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateTrangThaiCauHoi.CapNhatTrangThaiCauHoiCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateTrangThaiCauHoi.CapNhatTrangThaiCauHoiCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateTrangThaiCauHoi.CapNhatTrangThaiCauHoiCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.IReadOnlyList.UpdateTrangThaiCauHoi.CapNhatTrangThaiCauHoiResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.IReadOnlyList.UpdateTrangThaiCauHoi.CapNhatTrangThaiCauHoiResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.IReadOnlyList.UpdateTrangThaiCauHoi.CapNhatTrangThaiCauHoiResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/ExamSelection/GetList": {
+      "post": {
+        "tags": [
+          "ExamSelection"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LayDanhSachDeKiemTra.GetListByIdParentQuery"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LayDanhSachDeKiemTra.GetListByIdParentQuery"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LayDanhSachDeKiemTra.GetListByIdParentQuery"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.PagedResult.ExamSelection.DeKiemTraitemDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.PagedResult.ExamSelection.DeKiemTraitemDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.PagedResult.ExamSelection.DeKiemTraitemDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/ExamSelection/GetById": {
+      "post": {
+        "tags": [
+          "ExamSelection"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LayDeKiemTraById.LayDeKiemTraByIdQuery"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LayDeKiemTraById.LayDeKiemTraByIdQuery"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LayDeKiemTraById.LayDeKiemTraByIdQuery"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.ExamSelection.DeKiemTraDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.ExamSelection.DeKiemTraDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse.ExamSelection.DeKiemTraDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AdaptiveTest.CauHoiMucTieuDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maCauHoi": {
+            "type": "string",
+            "nullable": true
+          },
+          "idCauTruc": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idLoaiCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idMucDoNhanThuc": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idTrangThai": {
+            "$ref": "#/components/schemas/Enums.TrangThaiDuyet"
+          },
+          "isKhongDao": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "isCauHoiCha": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "doKho": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "doPhanLoai": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "noiDung": {
+            "type": "string",
+            "nullable": true
+          },
+          "stt": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          },
+          "mediaUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "tieuDeVeTrai": {
+            "type": "string",
+            "nullable": true
+          },
+          "tieuDeVePhai": {
+            "type": "string",
+            "nullable": true
+          },
+          "cauHois": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AdaptiveTest.CauHoisMucTieuDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AdaptiveTest.CauHoisMucTieuDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maCauHoi": {
+            "type": "string",
+            "nullable": true
+          },
+          "idCauTruc": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idLoaiCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idMucDoNhanThuc": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idTrangThai": {
+            "$ref": "#/components/schemas/Enums.TrangThaiDuyet"
+          },
+          "isKhongDao": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "isCauHoiCha": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "idCauHoiCha": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "doKho": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "doPhanLoai": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "noiDung": {
+            "type": "string",
+            "nullable": true
+          },
+          "stt": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          },
+          "mediaUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "tieuDeVeTrai": {
+            "type": "string",
+            "nullable": true
+          },
+          "tieuDeVePhai": {
+            "type": "string",
+            "nullable": true
+          },
+          "cauTraLois": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AdaptiveTest.CauTraLoisMucTieuDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AdaptiveTest.CauTraLoisMucTieuDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "noiDung": {
+            "type": "string",
+            "nullable": true
+          },
+          "isVeTrai": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "isKhongDao": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "viTriGachChan": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "stt": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AdaptiveTest.DuLieuKiemTraDto": {
+        "type": "object",
+        "properties": {
+          "idNguoiDung": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idKetQuaKiemTra": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idCauHinhDeKiemTra": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "thoiGianBatDau": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "thoiGianKetThuc": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "diemSo": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "theta": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "standardError": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "thetaMin": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "thetaMax": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "chiTietKetQuas": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AdaptiveTest.KetQuaDanhGiaDapAn"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AdaptiveTest.KetQuaDanhGiaDapAn": {
+        "type": "object",
+        "properties": {
+          "idCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idCauHoiCha": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idCauTraLoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "noiDungCauTraLoi": {
+            "type": "string",
+            "nullable": true
+          },
+          "isCorrect": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "scoreRatio": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "currentDifficulty": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "thetaBefore": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "thetaAfter": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "targetTheta": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "standardErrorBefore": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "standardErrorAfter": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "currentItemInformation": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "cumulativeInformationBefore": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "cumulativeInformationAfter": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApiResponse.AdaptiveTest.DuLieuKiemTraDto": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "$ref": "#/components/schemas/AdaptiveTest.DuLieuKiemTraDto"
+          },
+          "warningMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "errorMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isOk": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApiResponse.BatDauKiemTra.BatDauKiemTraResponse": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "$ref": "#/components/schemas/BatDauKiemTra.BatDauKiemTraResponse"
+          },
+          "warningMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "errorMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isOk": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApiResponse.CreateCauHoi.CreateCauHoiResponse": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "$ref": "#/components/schemas/CreateCauHoi.CreateCauHoiResponse"
+          },
+          "warningMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "errorMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isOk": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApiResponse.CreateCautruc.CreateCauTrucResponse": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "$ref": "#/components/schemas/CreateCautruc.CreateCauTrucResponse"
+          },
+          "warningMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "errorMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isOk": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApiResponse.DeleteCauTruc.DeleteCauTrucResponse": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "$ref": "#/components/schemas/DeleteCauTruc.DeleteCauTrucResponse"
+          },
+          "warningMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "errorMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isOk": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApiResponse.EX_CauHois.CauHoiDto": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "$ref": "#/components/schemas/EX_CauHois.CauHoiDto"
+          },
+          "warningMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "errorMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isOk": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApiResponse.ExamSelection.DeKiemTraDto": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "$ref": "#/components/schemas/ExamSelection.DeKiemTraDto"
+          },
+          "warningMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "errorMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isOk": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApiResponse.IReadOnlyList.DataControls.BoCauHoiItemResponse": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DataControls.BoCauHoiItemResponse"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "warningMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "errorMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isOk": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApiResponse.IReadOnlyList.DataControls.CauTrucItemResponse": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DataControls.CauTrucItemResponse"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "warningMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "errorMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isOk": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApiResponse.IReadOnlyList.DeleteCauHoi.DeleteCauHoiResponse": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DeleteCauHoi.DeleteCauHoiResponse"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "warningMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "errorMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isOk": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApiResponse.IReadOnlyList.UpdateTrangThaiCauHoi.CapNhatTrangThaiCauHoiResponse": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/UpdateTrangThaiCauHoi.CapNhatTrangThaiCauHoiResponse"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "warningMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "errorMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isOk": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApiResponse.KetThucKiemTra.KetThucKiemTraResponse": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "$ref": "#/components/schemas/KetThucKiemTra.KetThucKiemTraResponse"
+          },
+          "warningMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "errorMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isOk": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApiResponse.LayCauHoiTiepTheo.LayCauHoiTiepTheoResponse": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "$ref": "#/components/schemas/LayCauHoiTiepTheo.LayCauHoiTiepTheoResponse"
+          },
+          "warningMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "errorMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isOk": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApiResponse.List.DataControls.SelectorItemResponse": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DataControls.SelectorItemResponse"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "warningMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "errorMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isOk": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApiResponse.NopCauTraLoi.NopCauTraLoiResponse": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "$ref": "#/components/schemas/NopCauTraLoi.NopCauTraLoiResponse"
+          },
+          "warningMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "errorMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isOk": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApiResponse.PagedResult.DM_CauTrucBCHs.CauTrucItemResponse": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "$ref": "#/components/schemas/PagedResult.DM_CauTrucBCHs.CauTrucItemResponse"
+          },
+          "warningMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "errorMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isOk": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApiResponse.PagedResult.EX_CauHois.CauHoiItemDto": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "$ref": "#/components/schemas/PagedResult.EX_CauHois.CauHoiItemDto"
+          },
+          "warningMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "errorMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isOk": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApiResponse.PagedResult.ExamSelection.DeKiemTraitemDto": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "$ref": "#/components/schemas/PagedResult.ExamSelection.DeKiemTraitemDto"
+          },
+          "warningMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "errorMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isOk": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApiResponse.UpdateCauHoi.UpdateCauHoiResponse": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "$ref": "#/components/schemas/UpdateCauHoi.UpdateCauHoiResponse"
+          },
+          "warningMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "errorMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isOk": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApiResponse.UpdateCautruc.UpdateCauTrucResponse": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "$ref": "#/components/schemas/UpdateCautruc.UpdateCauTrucResponse"
+          },
+          "warningMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "errorMessages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Responses.ApiMessage"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isOk": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "BatDauKiemTra.BatDauKiemTraCommand": {
+        "type": "object",
+        "properties": {
+          "idCauHinhDeKiemTra": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "BatDauKiemTra.BatDauKiemTraResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idNguoiDung": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idCauHinhDeKiemTra": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "thoiGianBatDau": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "thoiGianKetThuc": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "diemSo": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "isDat": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "mucNangLuc": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maMucNangLuc": {
+            "type": "string",
+            "nullable": true
+          },
+          "diemNangLuc": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "saiSoUocLuong": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "idCauHoiHienTai": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "trangThai": {
+            "$ref": "#/components/schemas/Enums.TrangThaiKiemTra"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateCauHoi.CreateCauHoiCommand": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maCauHoi": {
+            "type": "string",
+            "nullable": true
+          },
+          "idCauTruc": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idLoaiCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idMucDoNhanThuc": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idTrangThai": {
+            "$ref": "#/components/schemas/Enums.TrangThaiDuyet"
+          },
+          "isKhongDao": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "isCauHoiCha": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "doKho": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "doKhoKhoiTao": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "noiDung": {
+            "type": "string",
+            "nullable": true
+          },
+          "stt": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          },
+          "mediaUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "tieuDeVeTrai": {
+            "type": "string",
+            "nullable": true
+          },
+          "tieuDeVePhai": {
+            "type": "string",
+            "nullable": true
+          },
+          "cauHois": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EX_CauHois.CauHoisDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateCauHoi.CreateCauHoiResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maCauHoi": {
+            "type": "string",
+            "nullable": true
+          },
+          "idCauTruc": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idLoaiCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idCauHoiCha": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idMucDoNhanThuc": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idTrangThai": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "mediaUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "idNguoiDuyet": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idNguoiSoan": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "isKhongDao": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "isCauHoiCha": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "tieuDeVeTrai": {
+            "type": "string",
+            "nullable": true
+          },
+          "tieuDeVePhai": {
+            "type": "string",
+            "nullable": true
+          },
+          "stt": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "sttCauHoiCon": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "doKho": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "doKhoKhoiTao": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "cauHoiGuid": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChuDuyet": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngaySoan": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "ngayDuyet": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "isVisible": {
+            "type": "boolean",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateCautruc.CreateCauTrucCommand": {
+        "type": "object",
+        "properties": {
+          "tenCauTruc": {
+            "type": "string",
+            "nullable": true
+          },
+          "maCauTruc": {
+            "type": "string",
+            "nullable": true
+          },
+          "idBoCauHoi": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idParent": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          },
+          "stt": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "isVisible": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateCautruc.CreateCauTrucResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenCauTruc": {
+            "type": "string",
+            "nullable": true
+          },
+          "maCauTruc": {
+            "type": "string",
+            "nullable": true
+          },
+          "idParent": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idBoCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          },
+          "stt": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "isVisible": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DM_CauTrucBCHs.CauTrucItemResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenCauTruc": {
+            "type": "string",
+            "nullable": true
+          },
+          "maCauTruc": {
+            "type": "string",
+            "nullable": true
+          },
+          "idParent": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idBoCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          },
+          "stt": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "isVisible": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DataControls.BoCauHoiItemResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maBoCauHoi": {
+            "type": "string",
+            "nullable": true
+          },
+          "tenBoCauHoi": {
+            "type": "string",
+            "nullable": true
+          },
+          "taiLieuThamKhao": {
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          },
+          "isLocked": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DataControls.CauTrucItemResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenCauTruc": {
+            "type": "string",
+            "nullable": true
+          },
+          "maCauTruc": {
+            "type": "string",
+            "nullable": true
+          },
+          "idParent": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idBoCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          },
+          "stt": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "isVisible": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DataControls.SelectorItemResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "stt": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ma": {
+            "type": "string",
+            "nullable": true
+          },
+          "ten": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DeleteCauHoi.DeleteCauHoiCommand": {
+        "type": "object",
+        "properties": {
+          "ids": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DeleteCauHoi.DeleteCauHoiResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maCauHoi": {
+            "type": "string",
+            "nullable": true
+          },
+          "idCauTruc": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idLoaiCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idCauHoiCha": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idMucDoNhanThuc": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idTrangThai": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "mediaUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "idNguoiDuyet": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idNguoiSoan": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "isKhongDao": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "isCauHoiCha": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "tieuDeVeTrai": {
+            "type": "string",
+            "nullable": true
+          },
+          "tieuDeVePhai": {
+            "type": "string",
+            "nullable": true
+          },
+          "stt": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "sttCauHoiCon": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "doKho": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "doKhoKhoiTao": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "cauHoiGuid": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChuDuyet": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngaySoan": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "ngayDuyet": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "isVisible": {
+            "type": "boolean",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DeleteCauTruc.DeleteCauTrucCommand": {
+        "type": "object",
+        "properties": {
+          "ids": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DeleteCauTruc.DeleteCauTrucResponse": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DM_CauTrucBCHs.CauTrucItemResponse"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EX_CauHois.CauHoiDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maCauHoi": {
+            "type": "string",
+            "nullable": true
+          },
+          "idCauTruc": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idLoaiCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idMucDoNhanThuc": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idTrangThai": {
+            "$ref": "#/components/schemas/Enums.TrangThaiDuyet"
+          },
+          "isKhongDao": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "isCauHoiCha": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "doKho": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "doKhoKhoiTao": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "noiDung": {
+            "type": "string",
+            "nullable": true
+          },
+          "stt": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          },
+          "mediaUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "tieuDeVeTrai": {
+            "type": "string",
+            "nullable": true
+          },
+          "tieuDeVePhai": {
+            "type": "string",
+            "nullable": true
+          },
+          "cauHois": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EX_CauHois.CauHoisDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EX_CauHois.CauHoiItemDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maCauHoi": {
+            "type": "string",
+            "nullable": true
+          },
+          "idCauTrucBCH": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idLoaiCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "isKhongDao": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "isCauHoiCha": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "idCauHoiCha": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "doKho": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "doKhoKhoiTao": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "isVisible": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "idTrangThai": {
+            "$ref": "#/components/schemas/Enums.TrangThaiDuyet"
+          },
+          "mediaUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "tieuDeVeTrai": {
+            "type": "string",
+            "nullable": true
+          },
+          "tieuDeVePhai": {
+            "type": "string",
+            "nullable": true
+          },
+          "sttCauHoiCon": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "sttCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idNguoiSoan": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ngaySoan": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "idNguoiDuyet": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ngayDuyet": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "cauHoiGUId": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "maCauTruc": {
+            "type": "string",
+            "nullable": true
+          },
+          "tenCauTruc": {
+            "type": "string",
+            "nullable": true
+          },
+          "idBoCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maNhanSu": {
+            "type": "string",
+            "nullable": true
+          },
+          "hoDem": {
+            "type": "string",
+            "nullable": true
+          },
+          "ten": {
+            "type": "string",
+            "nullable": true
+          },
+          "maLoaiCauHoi": {
+            "type": "string",
+            "nullable": true
+          },
+          "tenLoaiCauHoi": {
+            "type": "string",
+            "nullable": true
+          },
+          "maMucDoNhanThuc": {
+            "type": "string",
+            "nullable": true
+          },
+          "tenMucDoNhanThuc": {
+            "type": "string",
+            "nullable": true
+          },
+          "maNhanSuDuyet": {
+            "type": "string",
+            "nullable": true
+          },
+          "hoDemNguoiDuyet": {
+            "type": "string",
+            "nullable": true
+          },
+          "tenNguoiDuyet": {
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChuDuyet": {
+            "type": "string",
+            "nullable": true
+          },
+          "noiDung": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EX_CauHois.CauHoisDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maCauHoi": {
+            "type": "string",
+            "nullable": true
+          },
+          "idCauTruc": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idLoaiCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idMucDoNhanThuc": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idTrangThai": {
+            "$ref": "#/components/schemas/Enums.TrangThaiDuyet"
+          },
+          "isKhongDao": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "isCauHoiCha": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "idCauHoiCha": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "doKho": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "doKhoKhoiTao": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "noiDung": {
+            "type": "string",
+            "nullable": true
+          },
+          "stt": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          },
+          "mediaUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "tieuDeVeTrai": {
+            "type": "string",
+            "nullable": true
+          },
+          "tieuDeVePhai": {
+            "type": "string",
+            "nullable": true
+          },
+          "cauTraLois": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EX_CauHois.CauTraLoisDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EX_CauHois.CauTraLoisDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "viTriGachChan": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "isDung": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "isKhongDao": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "isVeTrai": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "stt": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "isVisible": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "noiDung": {
+            "type": "string",
+            "nullable": true
+          },
+          "phanTramDiem": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "isThietLapRieng": {
+            "type": "boolean",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Enums.TrangThaiDuyet": {
+        "enum": [
+          1,
+          2,
+          3
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "Enums.TrangThaiKiemTra": {
+        "enum": [
+          1,
+          2,
+          3
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "ExamSelection.ChiTietDeKiemTraItemDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idCauHinhDeKiemTra": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idLoaiCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "tenLoaiCauHoi": {
+            "type": "string",
+            "nullable": true
+          },
+          "idMucDoNhanThuc": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "tenMucDoNhanThuc": {
+            "type": "string",
+            "nullable": true
+          },
+          "soLuongCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ExamSelection.DeKiemTraDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idCauTruc": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "tenCauHinhDeKiemTra": {
+            "type": "string",
+            "nullable": true
+          },
+          "maCauHinhDeKiemTra": {
+            "type": "string",
+            "nullable": true
+          },
+          "thoiGianLamBaiGiay": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "doKhoMin": {
+            "type": "string",
+            "nullable": true
+          },
+          "doKhoMax": {
+            "type": "string",
+            "nullable": true
+          },
+          "mucNangLucDat": {
+            "type": "string",
+            "nullable": true
+          },
+          "stt": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ngayDuyet": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "tongSoLuongCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "chiTietDeKiemTras": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ExamSelection.ChiTietDeKiemTraItemDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ExamSelection.DeKiemTraitemDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idCauTruc": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "tenCauHinhDeKiemTra": {
+            "type": "string",
+            "nullable": true
+          },
+          "maCauHinhDeKiemTra": {
+            "type": "string",
+            "nullable": true
+          },
+          "thoiGianLamBaiGiay": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "doKhoMin": {
+            "type": "string",
+            "nullable": true
+          },
+          "doKhoMax": {
+            "type": "string",
+            "nullable": true
+          },
+          "mucNangLucDat": {
+            "type": "string",
+            "nullable": true
+          },
+          "stt": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ngayDuyet": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetAllBoCauHoi.GetAllBoCauHoiQuery": {
+        "type": "object",
+        "properties": {
+          "pageNumber": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "pageSize": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idParent": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "keyword": {
+            "type": "string",
+            "nullable": true
+          },
+          "sortCol": {
+            "type": "string",
+            "nullable": true
+          },
+          "isAsc": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "isVisible": {
+            "type": "boolean",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetAllCauTruc.GetAllCauTrucQuery": {
+        "type": "object",
+        "properties": {
+          "idBoCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idParent": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "keyword": {
+            "type": "string",
+            "nullable": true
+          },
+          "sortCol": {
+            "type": "string",
+            "nullable": true
+          },
+          "isAsc": {
+            "type": "boolean"
+          },
+          "pageNumber": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pageSize": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetCauHoiById.GetCauHoiByIdQuery": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetListByIdParent.GetListByIdParentQuery": {
+        "type": "object",
+        "properties": {
+          "idBoCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idParent": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "keyword": {
+            "type": "string",
+            "nullable": true
+          },
+          "sortCol": {
+            "type": "string",
+            "nullable": true
+          },
+          "isAsc": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "pageNumber": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "pageSize": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetListCauHoi.GetListCauHoiQuery": {
+        "type": "object",
+        "properties": {
+          "pageNumber": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "pageSize": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "keyword": {
+            "type": "string",
+            "nullable": true
+          },
+          "sortCol": {
+            "type": "string",
+            "nullable": true
+          },
+          "isAsc": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "maCauHoi": {
+            "type": "string",
+            "nullable": true
+          },
+          "isVisible": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "tuNgayTao": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "denNgayTao": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "idMucDoNhanThuc": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
+          },
+          "idTrangThaiCauHoi": {
+            "$ref": "#/components/schemas/Enums.TrangThaiDuyet"
+          },
+          "idLoaiCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idCauTruc": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idBoCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idNguoiSoan": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idNhanSu": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetLoaiCauHoiForSelector.GetLoaiCauHoiForSelectorQuery": {
+        "type": "object",
+        "properties": {
+          "isVisible": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GetMucDoNhanThucForSelector.GetMucDoNhanThucForSelectorQuery": {
+        "type": "object",
+        "properties": {
+          "isVisible": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "KetThucKiemTra.KetThucKiemTraCommand": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "KetThucKiemTra.KetThucKiemTraResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idNguoiDung": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idCauHinhDeKiemTra": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "doKhoMin": {
+            "type": "string",
+            "nullable": true
+          },
+          "doKhoMax": {
+            "type": "string",
+            "nullable": true
+          },
+          "mucNangLucDat": {
+            "type": "string",
+            "nullable": true
+          },
+          "thoiGianBatDau": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "thoiGianKetThuc": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "diemSo": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "isDat": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "mucNangLuc": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maMucNangLuc": {
+            "type": "string",
+            "nullable": true
+          },
+          "diemNangLuc": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "saiSoUocLuong": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "idCauHoiHienTai": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "trangThai": {
+            "$ref": "#/components/schemas/Enums.TrangThaiKiemTra"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LayCauHoiTiepTheo.LayCauHoiTiepTheoCommand": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "LayCauHoiTiepTheo.LayCauHoiTiepTheoResponse": {
+        "type": "object",
+        "properties": {
+          "isFinished": {
+            "type": "boolean"
+          },
+          "reason": {
+            "$ref": "#/components/schemas/ValueObjects.StopReason"
+          },
+          "cauHoi": {
+            "$ref": "#/components/schemas/AdaptiveTest.CauHoiMucTieuDto"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LayDanhSachDeKiemTra.GetListByIdParentQuery": {
+        "type": "object",
+        "properties": {
+          "idBoCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idParent": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "keyword": {
+            "type": "string",
+            "nullable": true
+          },
+          "sortCol": {
+            "type": "string",
+            "nullable": true
+          },
+          "isAsc": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "pageNumber": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "pageSize": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LayDeKiemTraById.LayDeKiemTraByIdQuery": {
+        "type": "object",
+        "properties": {
+          "idCauHinhDeKiemTra": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LayDuLieuKiemTra.LayDuLieuKiemTraQuery": {
+        "type": "object",
+        "properties": {
+          "idKetQuaKiemTra": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Login.LoginQuery": {
+        "type": "object",
+        "properties": {
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "NopCauTraLoi.NopCauTraLoiCommand": {
+        "type": "object",
+        "properties": {
+          "dapAnNguoiDung": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AdaptiveTest.CauTraLoisMucTieuDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "NopCauTraLoi.NopCauTraLoiResponse": {
+        "type": "object",
+        "properties": {
+          "thetaBefore": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "thetaAfter": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "standardError": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "answerResults": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AdaptiveTest.KetQuaDanhGiaDapAn"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PagedResult.DM_CauTrucBCHs.CauTrucItemResponse": {
+        "type": "object",
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DM_CauTrucBCHs.CauTrucItemResponse"
+            },
+            "nullable": true
+          },
+          "pagingInfo": {
+            "$ref": "#/components/schemas/Responses.PagingInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PagedResult.EX_CauHois.CauHoiItemDto": {
+        "type": "object",
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EX_CauHois.CauHoiItemDto"
+            },
+            "nullable": true
+          },
+          "pagingInfo": {
+            "$ref": "#/components/schemas/Responses.PagingInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PagedResult.ExamSelection.DeKiemTraitemDto": {
+        "type": "object",
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ExamSelection.DeKiemTraitemDto"
+            },
+            "nullable": true
+          },
+          "pagingInfo": {
+            "$ref": "#/components/schemas/Responses.PagingInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Register.RegisterCommand": {
+        "type": "object",
+        "properties": {
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Responses.ApiMessage": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "nullable": true
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Responses.PagingInfo": {
+        "type": "object",
+        "properties": {
+          "pageSize": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "pageNumber": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "totalItems": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateCauHoi.UpdateCauHoiCommand": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maCauHoi": {
+            "type": "string",
+            "nullable": true
+          },
+          "idCauTruc": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idLoaiCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idMucDoNhanThuc": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idTrangThai": {
+            "$ref": "#/components/schemas/Enums.TrangThaiDuyet"
+          },
+          "isKhongDao": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "isCauHoiCha": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "doKho": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "doKhoKhoiTao": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "noiDung": {
+            "type": "string",
+            "nullable": true
+          },
+          "stt": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          },
+          "mediaUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "tieuDeVeTrai": {
+            "type": "string",
+            "nullable": true
+          },
+          "tieuDeVePhai": {
+            "type": "string",
+            "nullable": true
+          },
+          "cauHois": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EX_CauHois.CauHoisDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateCauHoi.UpdateCauHoiResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maCauHoi": {
+            "type": "string",
+            "nullable": true
+          },
+          "idCauTruc": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idLoaiCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idCauHoiCha": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idMucDoNhanThuc": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idTrangThai": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "mediaUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "idNguoiDuyet": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idNguoiSoan": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "isKhongDao": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "isCauHoiCha": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "tieuDeVeTrai": {
+            "type": "string",
+            "nullable": true
+          },
+          "tieuDeVePhai": {
+            "type": "string",
+            "nullable": true
+          },
+          "stt": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "sttCauHoiCon": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "doKho": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "doKhoKhoiTao": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "cauHoiGuid": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChuDuyet": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngaySoan": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "ngayDuyet": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "isVisible": {
+            "type": "boolean",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateCautruc.UpdateCauTrucCommand": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenCauTruc": {
+            "type": "string",
+            "nullable": true
+          },
+          "maCauTruc": {
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          },
+          "stt": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "isVisible": {
+            "type": "boolean",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateCautruc.UpdateCauTrucResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenCauTruc": {
+            "type": "string",
+            "nullable": true
+          },
+          "maCauTruc": {
+            "type": "string",
+            "nullable": true
+          },
+          "idParent": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idBoCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          },
+          "stt": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "isVisible": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateTrangThaiCauHoi.CapNhatTrangThaiCauHoiCommand": {
+        "type": "object",
+        "properties": {
+          "ids": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
+          },
+          "idTrangThai": {
+            "$ref": "#/components/schemas/Enums.TrangThaiDuyet"
+          },
+          "ghiChuDuyet": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateTrangThaiCauHoi.CapNhatTrangThaiCauHoiResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maCauHoi": {
+            "type": "string",
+            "nullable": true
+          },
+          "idCauTruc": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idLoaiCauHoi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idCauHoiCha": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idMucDoNhanThuc": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idTrangThai": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "mediaUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "idNguoiDuyet": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idNguoiSoan": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "isKhongDao": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "isCauHoiCha": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "tieuDeVeTrai": {
+            "type": "string",
+            "nullable": true
+          },
+          "tieuDeVePhai": {
+            "type": "string",
+            "nullable": true
+          },
+          "stt": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "sttCauHoiCon": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "doKho": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "doKhoKhoiTao": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "cauHoiGuid": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "ghiChu": {
+            "type": "string",
+            "nullable": true
+          },
+          "ghiChuDuyet": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngaySoan": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "ngayDuyet": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "isVisible": {
+            "type": "boolean",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ValueObjects.StopReason": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "code": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Format: Bearer {your token}",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}

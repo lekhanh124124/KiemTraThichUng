@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
+    <PackageReference Include="MediatR" Version="14.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KiemTraThichUng.Domain\KiemTraThichUng.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\AdaptiveTest\Mappings\" />
+    <Folder Include="Features\Auth\DTOs\" />
+    <Folder Include="Features\Auth\Mappings\" />
+    <Folder Include="Features\DataControls\Commands\" />
+    <Folder Include="Features\DataControls\Mappings\" />
+    <Folder Include="Features\DM_CauTrucBCHs\Mappings\" />
+    <Folder Include="Features\ExamSelection\Commands\" />
+    <Folder Include="Features\ExamSelection\Mappings\" />
+    <Folder Include="Features\EX_CauHois\Mappings\" />
+  </ItemGroup>
+
+</Project>

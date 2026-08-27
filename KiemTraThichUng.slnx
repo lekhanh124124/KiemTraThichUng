@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="KiemTraThichUng.API/KiemTraThichUng.API.csproj" />
+    <Project Path="KiemTraThichUng.Application/KiemTraThichUng.Application.csproj" />
+    <Project Path="KiemTraThichUng.Domain/KiemTraThichUng.Domain.csproj" />
+    <Project Path="KiemTraThichUng.Infrastructure/KiemTraThichUng.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/test/" />
+</Solution>
